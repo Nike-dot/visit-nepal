@@ -6,9 +6,109 @@
 .first-main{
     background-image: url(pexels-pixabay-235990.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
+.navbar{
+    position: fixed;
+    /* border: 1px solid red; */
+    min-width: 100%;
+    background-color: rgb(171, 76, 235);
+    border-radius: 10px;
+}
+.middle-content{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    height: 50%;
+    width: 50%;
+    /* border: 1px solid green; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dis {
+    font-size: 70px; /* Default font size for larger screens */
+}
+
+/* Adjust font size for medium screens */
+@media (max-width: 768px) {
+    .dis {
+        font-size: 50px;
+    }
+}
+
+/* Adjust font size for small screens */
+@media (max-width: 576px) {
+    .dis {
+        font-size: 40px;
+    }
+}
+/* ...existing code... */
+
+.par1 {
+    font-size: 24px; /* Default font size for larger screens */
+    margin-top: 10px;
+}
+
+/* Adjust font size for medium screens */
+@media (max-width: 768px) {
+    .par1 {
+        font-size: 20px;
+    }
+}
+
+/* Adjust font size for small screens */
+@media (max-width: 576px) {
+    .par1 {
+        font-size: 16px;
+    }
+}
+
+.b1 {
+    font-size: 25px; /* Default font size for larger screens */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(52, 65, 243);
+    margin-top: 15px;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Adjust button size for medium screens */
+@media (max-width: 768px) {
+    .b1 {
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+/* Adjust button size for small screens */
+@media (max-width: 576px) {
+    .b1 {
+        font-size: 16px;
+        padding: 6px;
+    }
+}
+
+.b1:hover {
+    transform: scale(1.1); /* Hover effect remains consistent */
+}
+/* <-----------------second-part----------------> */
 .second-part{
     height: 100vh;
+}
+/* <-----------------------third-part------------> */
+.third-part{
+    height:50vh ;
+    /* border: 1px solid red; */
+    background: linear-gradient(50deg, #00c6ff, #eb18bd); /* Blue gradient */
 }
